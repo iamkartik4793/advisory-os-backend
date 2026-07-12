@@ -1,0 +1,14 @@
+{
+  "name": "wealth-companion-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Thin orchestration layer: streams LLM chat + Deepgram STT/TTS. Zero dependencies.",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}
